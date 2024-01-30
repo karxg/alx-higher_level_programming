@@ -3,4 +3,7 @@
 
 
 class LockedClass:
-    __slots__= ['first_name']
+    """Restricts instantiation to only one attribute"""
+
+
+    __slots__ = ["first_name"]
