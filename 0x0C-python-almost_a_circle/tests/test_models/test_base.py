@@ -2,6 +2,7 @@
 """Unittest for base class
 """
 import unittest
+
 from models.base import Base
 from models.rectangle import Rectangle
 from ast import literal_eval
